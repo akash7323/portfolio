@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-image: url(pexeles.jpg);
+    background-repeat: no-repeat;
+    background-size: 2048px 2048px;
+    font-family: 'Merriweather', serif;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+img {
+    height: 15%;
+    width: 15%;
+}
+
+hr {
+    border: dotted rgb(26, 4, 4) 6px;
+    border-bottom: none;
+    width: 3%;
+    margin: 6.25rem auto;
+}
+
+.top-container {
+    padding-top: 6.25rem;
+    position: relative;
+}
+
+
+.middle-container {
+    margin: 6.25rem auto 6.25rem auto;
+}
+
+.intro {
+    width:30%;
+    margin:auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 6.25rem auto 0rem auto;
+    text-align: left;
+}
+
+p {
+    color: lime;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+.cool {
+    width: 25%;
+    /* border-radius: 100%; */
+    float: right;
+    margin-left: 1.875rem;
+}
+
+.foot {
+    width: 25%;
+    /* border-radius: 100%; */
+    float: left;
+    margin-right: 1.875rem;   
+}
+
+
+.bottom-container {    
+    background-color: #aef7fc;
+    padding: 3.125rem 0 1.25rem;
+} 
+a {
+    color: rgb(241, 152, 18);
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 1.25rem;
+    text-decoration: none;
+}
+a:hover {
+    color: chartreuse;
+}
+
+
+.pro {
+    text-decoration-line: underline ;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin: 3.125rem auto 0rem auto;
+    font-size: 5.625rem;
+    color:black;
+    line-height: 2;
+}
+h2 {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 2.5rem;
+    color: rgb(3, 55, 65);
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Shippori Mincho', serif;
+    color:red;
+}
+
+.contact-para {
+    width: 40%;
+    margin: 2.5rem auto 3.75rem auto;
+}
+.btn {
+    background: #13aaf0;
+    background-image: -webkit-linear-gradient(top, #13aaf0, #05131c);
+    background-image: -moz-linear-gradient(top, #13aaf0, #05131c);
+    background-image: -ms-linear-gradient(top, #13aaf0, #05131c);
+    background-image: -o-linear-gradient(top, #13aaf0, #05131c);
+    background-image: linear-gradient(to bottom, #13aaf0, #05131c);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 0.5rem;
+    font-family: 'Shippori Mincho', serif;
+    color: #ffffff;
+    font-size: 1.25rem;
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1bf584;
+    background-image: -webkit-linear-gradient(top, #1bf584, #022401);
+    background-image: -moz-linear-gradient(top, #1bf584, #022401);
+    background-image: -ms-linear-gradient(top, #1bf584, #022401);
+    background-image: -o-linear-gradient(top, #1bf584, #022401);
+    background-image: linear-gradient(to bottom, #1bf584, #022401);
+    text-decoration: none;
+}
+.request {
+    color: linen;
+    font-size: 2.5rem;
+}
+.copyright {
+    color:orange;
+    font-size: 0.75rem;
+}
